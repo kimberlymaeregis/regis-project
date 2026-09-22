@@ -345,3 +345,21 @@ body {
     color: #70806d;
     font-size: 13px;
 }
+
+.services-section h2 {
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+.services-section .card {
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.services-section .card:hover {
+  transform: translateY(-8px);
+}
+
+.services-section i {
+  color: #2e7d32;
+}
